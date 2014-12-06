@@ -11,6 +11,7 @@ Package: libevtlog0
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: multiarch-support
 Multi-Arch: same
 Description: Syslog event logger library
  The EventLog library aims to be a replacement of the simple syslog() API
